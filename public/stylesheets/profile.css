@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 40px;
+}
+
+
+
+.logout{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 30px;
+}
+
+.logout a{
+    font-weight: 600;
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;color: white;
+
+
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.profile-img{
+    height: 90px;
+    width: 90px;
+    border: 1px solid whitesmoke;
+    /* background-color: red; */
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.profile-img img{
+    height: 100%;
+    width: 100%;
+
+}
+
+h1{
+    margin: 20px 0px;
+    text-decoration: underline;
+    color: aqua;
+}
+
+textarea{
+    width: 50%;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.617);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    border-radius: 10px;
+
+}
+
+input{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 255, 0.561);
+    color: aliceblue;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+}
+
+h4{
+    color: grey;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.contianer{
+    background-color: blue;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.container .post{
+    background-color: rgb(37, 35, 35);
+    padding: 10px 15px;
+    width: 300px;
+    border: 2px solid rgba(0, 0, 0, 0.469);
+    border-radius: 10px;
+}
+
+.container .post h5{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: rgb(98, 43, 226);
+}
+
+.container .post p{
+    font-size: 12px;
+}
+.container .post .anc{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.container .post .anc .like{
+    color: rgb(98, 43, 226);
+    text-decoration: none;
+
+}
+.container .post .anc .edit{
+    color: grey;
+    text-decoration: none;
+    
+
+}
